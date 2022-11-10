@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+ }
+
+.landing_page{
+    background-image: url('../../images/app-bkg-3.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(100%);
+    margin: 0;
+   padding: 0;
+ 
+}
+.landing_page_info{
+    position: relative;
+    left: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 70%;
+    top: 10%;
+}
+.landing_page_info h1{
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: "Montserrat";
+    color: #0D4F8C;
+}
+.landing_page_info p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 1.81rem;
+    font-family: "Montserrat";
+}
+.landing_page_info_btn{
+    border: none;
+    background: #0D4F8C;
+    border-radius: 2rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 17.1rem;
+    height: 3.4rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    position: absolute;
+    bottom: -30px;
+}
+.landing_page_info_btn i {
+    margin-left: 180px;
+}
